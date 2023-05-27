@@ -1,0 +1,48 @@
+/* .deliveryForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deliveryForm form input {
+  min-width: 400px;
+  padding: 14px 10px;
+  line-height: 0.7rem;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  background-color: #e2e0e0;
+  color: #333;
+  box-shadow: 0 0 1px rgba(20, 20, 20, 0.836);
+} */
+.setPrice {
+  padding: 1rem 2rem;
+}
+.setPrice div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 8px 0;
+}
+.span1,
+.span2 {
+  background-color: red !important;
+  display: inline-block;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 20px;
+  /* z-index: -1 !important; */
+}
+/* .span1::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  right: 25.3%;
+  transform: translateY(13%);
+  width: 1px;
+  height: 110px;
+  background-color: #999;
+  z-index: -2 !important;
+} */

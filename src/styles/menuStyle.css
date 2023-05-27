@@ -1,0 +1,31 @@
+.links {
+  text-decoration: none;
+  color: #555;
+}
+.active {
+  color: #d32f2f !important;
+  transition: all 0.3s;
+  flex-direction: column;
+}
+.active span {
+  background-color: #d32f2f;
+  display: flex;
+  width: 100%;
+  min-height: 3px;
+  animation: underline 0.3s;
+}
+@keyframes underline {
+  0% {
+    min-height: 2px;
+    width: 5%;
+  }
+
+  90% {
+    min-height: 3px;
+    width: 100%;
+  }
+  100% {
+    min-height: 3px;
+    width: 100%;
+  }
+}
